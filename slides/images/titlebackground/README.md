@@ -1,9 +1,10 @@
 
 
 ## converting files
-inkscape --export-pdf background.pdf background.svg
+inkscape --export-pdf background.pdf background-v01.svg
+inkscape --export-png background.png background-v01.svg
 
-inkscape --export-png background.png background.svg
+
 
 inkscape --export-pdf thoR-v00.pdf thoR-v00.svg
 inkscape --export-png thor.png thoR-v00.svg

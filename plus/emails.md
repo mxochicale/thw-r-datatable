@@ -6,7 +6,8 @@
 ```
 
 
-Title: "A brief introduction to data.table" or "If Thor was an R Programmer, His Hammer Would Be data.table"
+Title: "A brief introduction to R data.table package" or 
+"If Thor was an R Programmer, His Hammer Would Be data.table"
 Abstract: 
 	In this 20-minutes talk, I will present basic examples of the use of `data.table`
 	which is an R package that provides an enhanced version of data.frames.

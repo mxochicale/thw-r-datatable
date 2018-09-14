@@ -19,11 +19,27 @@ date: September 17, 2018
 * References
 
 
-## Slide with R Code and Output
 
-```{r}
-summary(cars)
-```
+## the `data.table` R package is 12 years old
+
+\centerline{\includegraphics[width=\textwidth]{images/datatable/development_timeline.png}}
+
+[What's new in data.table, (Jan Gorecki, 2018.07)](https://jangorecki.gitlab.io/r-talks/2018-07-03_Wroclaw_What_s-new-in-data.table/What's%20new%20in%20data.table.pdf)
+
+## StackOverflow Questions from 2012-2018
+
+\centerline{\includegraphics[width=\textwidth]{images/datatable/so_questions.png}}
+
+[12 years of data.table, (Arun Srinivasan, 2018.07)](https://github.com/Rdatatable/data.table/wiki/talks/MontReal2018_Arun.pdf)
+
+
+
+## Grouping benchmarks (2018)
+
+\centerline{\includegraphics[height=2.5in]{images/datatable/benchmarks.png}}
+
+[data.table benchmark](https://h2oai.github.io/db-benchmark/)
+
 
 
 
@@ -45,6 +61,12 @@ puts "Hello world."
 def my_awesome_variable
   puts "My awesome variable"
 end
+```
+
+## Slide with R Code and Output
+
+```{r}
+summary(cars)
 ```
 
 
