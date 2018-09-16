@@ -22,10 +22,10 @@ data.table and ggplot2 for time-series analyses.
  - Participants are expected to be able to solve (simple) data manipulation tasks with base R.
 
 ### Requirements:
- - Participants should bring their own laptops with a recent version of R (3.4+) and a recent version of data.table (1.11.4)
+ - Participants should bring their own laptops with a recent version of R (3.4+) and a recent version of data.table (1.11.5)
 
 ### Preperation instructions:
- - Download the zip-file of this repository ([download link](https://));
+ - Download the zip-file of this repository ([download link](https://github.com/mxochicale/thw-r-datatable/archive/master.zip));
  - unzip it in a folder on your laptop;
 
 
