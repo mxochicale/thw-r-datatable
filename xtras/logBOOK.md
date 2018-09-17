@@ -10,6 +10,15 @@ logBOOK
 
 added: Mon 17 Sep 14:34:43 BST 2018
 
+
+* [ ] add description of the iris data set
+	(maybe show an scatter plot to show the audience 
+	how the data.table content looks like!)
+
+	https://en.wikipedia.org/wiki/Iris_flower_data_set
+
+
+added: Mon Sep 17 15:20:44 BST 2018
 	
 
 
