@@ -32,7 +32,7 @@ See `README.md` for further information
 * What is `data.table`?
 * Why bother using `data.table`?
 * Basic examples with `data.table`
-* Time Series Analysis with `data.table` and `ggplot`
+* Examples with `data.table` and `ggplot`
 * References
 
 ## What is `data.table`?
@@ -84,6 +84,8 @@ See `README.md` for further information
 ## General form 
 
 \centerline{\includegraphics[width=0.9\textwidth]{images/datatable/syntax.png}}
+
+> Take `DT`, subset rows using `i`, then calculate `j` grouped by `by`
 
 
 [tutorial uRos (walhouti, 2018)](https://github.com/jaapwalhout/data.table-tutorial-uros2018)
