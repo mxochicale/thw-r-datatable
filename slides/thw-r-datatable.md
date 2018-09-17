@@ -29,18 +29,19 @@ See `README.md` for further information
 
 ## Outline
 
-
 * What is `data.table`?
 * Why bother using `data.table`?
-
-* Basic Examples with data.table[]
-* Analysing Time Series with ggplot() and data.table()
+* Basic examples with `data.table`
+* Time Series Analysis with `data.table` and `ggplot`
 * References
 
 ## What is `data.table`?
 
-> The `data.table` R package that allows you to do fast data manipulations
+> The R `data.table` package extends data.frame.
+> `data.table` allows you to do fast data manipulations
 > (for example, 100GB in RAM).
+> `data.table` goals are reduce both programming time and compute time.
+
 
 + 678 packages	import/depend/suggest `data.table` (543 CRAN + 135 Bioconductor)
 * Github: https://github.com/Rdatatable/data.table
@@ -48,6 +49,7 @@ See `README.md` for further information
 \centerline{\includegraphics[width=\textwidth]{images/datatable/github.pdf}}
 
 
+# Why bother using `data.table`?
 
 ## The R `data.table` package is 12 years old
 * More than 35 releases of `data.table` since 2006 on CRAN
@@ -77,35 +79,44 @@ See `README.md` for further information
 [h2oai.github.io/db-benchmark](https://h2oai.github.io/db-benchmark/)
 
 
-## `data.table` Syntax 
+# Basic examples with `data.table`
 
+## General form 
 
 \centerline{\includegraphics[width=0.9\textwidth]{images/datatable/syntax.png}}
 
 
-## Code example
+[tutorial uRos (walhouti, 2018)](https://github.com/jaapwalhout/data.table-tutorial-uros2018)
 
-``` {.R}
-puts "Hello world."
-def my_awesome_variable
-  puts "My awesome variable"
-end
+## Examples
+
+```{.R}
+00-lib-dependencies.R 
+01-basics.R            
+02-counts.R      
+03-aggregating.R  
+04-group-by.R     
+05-group-by-SD.R  
+06-updating-variables.R  
+07-adding-variables.R    
+08-deleting-variables.R
+09-joining-datasets.R
 ```
 
-## Slide with R Code and Output
 
-```{r}
-summary(cars)
+
+# Examples with `data.table` and `ggplot`
+
+## Examples
+
+```{.R}
+01-scatterplot.R
+02-boxplot.R
+03-histogram.R
+04-densitycurve.R
+05-addingsmoothers.R
+06-faceting.R
 ```
-
-
-## Slide with text and footnote
-
-Surely this is true.^[Jane Doe, *Says It Here* (New York: Oxford 
-University Press, 2050).] 
-
-\note{I am sure about this point.}
-
 
 
 ## References

@@ -14,7 +14,7 @@ irisDT[, Sepal.Length := Sepal.Length*2]
 irisDT[, `:=` (Sepal.Length = Sepal.Length*2, Petal.Width = Petal.Width/2) ]
 
 
-#Updating variables by group
-irisDT[, Sepal.Length := Sepal.Length*uniqueN(Sepal.Width)/.N, by = Species]
-irisDT[, `:=` (Sepal.Length = Sepal.Length * uniqueN(Sepal.Width), Petal.Width = Petal.Width / .N), by = Species]
+##Updating variables by group (.N =50 as every group is 50 samples)
+#irisDT[, Sepal.Length := Sepal.Length*uniqueN(Sepal.Width)/.N, by = Species]
+#irisDT[, `:=` (Sepal.Length = Sepal.Length * uniqueN(Sepal.Width), Petal.Width = Petal.Width / .N), by = Species]
 

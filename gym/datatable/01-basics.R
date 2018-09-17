@@ -9,17 +9,20 @@ irisDT <- as.data.table(iris)
 #subset rows 
 irisDT[Species	==	"setosa",	]
 
-#select columns 
+#select columns as vector
 irisDT[,Petal.Width]
+
+#select columns as list()==.()
 irisDT[,.(Petal.Width)]
 
 
-#subset rows &	select columns
+#subset rows & select columns as vector
 irisDT[Species == "setosa", Petal.Width]
+#subset rows & select columns as list
 irisDT[Species == "setosa", .(Petal.Width)]
 
 
-#subset rows
+#subset rows for an interval of values between(a,b)
 irisDT[between(Petal.Width,1,1.2)]
 irisDT[Petal.Width %between% c(1,2)]
 

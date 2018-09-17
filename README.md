@@ -1,13 +1,14 @@
-"A brieft introduction to data.table" or if you like, "If Thor was an R Programmer, His Hammer Would Be data.table"
+"A brieft introduction to data.table" 
 ---
 
 [![title](https://raw.githubusercontent.com/mxochicale/thw-r-datatable/master/slides/images/titlebackground/background.png)](https://raw.githubusercontent.com/mxochicale/thw-r-datatable/master/slides/thw-r-datatable.md.slides.pdf)
 
 
 In this 20-minutes talk, I will present basic examples of the use of 
-`data.table` which is an R package that provides an enhanced version 
-of data.frames. I will also share some of my experiences with 
-data.table and ggplot2 for time-series analyses.
+[**`data.table`**](https://github.com/Rdatatable/data.table) 
+which is an R package that provides an enhanced version of data.frames. 
+I will also share some of my experiences with data.table and ggplot2 for 
+time-series analyses.
 
  - Date: **Monday, September 17, 2018**
  - Time: **13:00 - 14:00** 
