@@ -6,7 +6,7 @@ library(data.table)
 irisDT <- as.data.table(iris)
 
 
-#Simple	aggregation: 
+#Simple	aggregation (.N number of rows, mean of Petal.Width): 
 irisDT[,.(count = .N, average = mean(Petal.Width))]
 
 #Including filtering:

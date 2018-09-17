@@ -9,6 +9,8 @@ irisDT[Species == "setosa", .N]
 
 #count distint groups in Species
 uniqueN(irisDT,	by =	"Species")
+
+#or
 irisDT[, uniqueN(Species)]
 
 #count distinct groups in Species with the condition   Petal.Width<0.9

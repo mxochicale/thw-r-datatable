@@ -2,10 +2,18 @@
 ## twitter
 
 
+* `https://twitter.com/_mxochicale/status/1041620056512385026`
+
+Slides and exercise are ready [https://github.com/mxochicale/thw-r-datatable …] for the @hackerwithin meeting @uob_rescomp : "A brief introduction to the R data.table package". Today, 17 of Sep 2018, 1-2pm in room UG07 at R28!   Feel free to join us or check out the repo for those around the world!
+2:29 AM - 17 Sep 2018
+
+
+
 * `https://twitter.com/_mxochicale/status/1040586878267916291`
 
 
-Join me this Monday 17/09 1-2pm in R28, room UG07 for the @hackerwithin meeting @uob_rescomp , will talk about "A brief introduction to R data.table package"  Slides and exercise are available here:
+Join me this Monday 17/09 1-2pm in R28, room UG07 for the @hackerwithin meeting @uob_rescomp , will talk about "A brief introduction to R data.table package"  
+Slides and exercise are available here:
 https://github.com/mxochicale/thw-r-datatable
 (CC BY-SA 4.0) 😋
 

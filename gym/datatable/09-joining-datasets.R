@@ -9,6 +9,7 @@ library(data.table)
 irisDT <- copy(iris)
 setDT(irisDT)
 
+#build irisH
 irisH <- data.table(
 	Species	=	c("setosa","versicolor","virginica"),
 	Species.full =	c("Iris	setosa","Iris	versicolor","Iris virginica"),
@@ -16,22 +17,23 @@ irisH <- data.table(
 	soil =		c("mud","rock","sand")
 )
 
-
+# join irisDT with irisH
 irisDT[irisH, on = .(Species)]
-irisDT[irisH, on = "Species"]
-#irisDT[irisH, on = .(Species = Spec,	other_col)]
 
+# or
+irisDT[irisH, on = "Species"]
+
+
+# join irisDT with irisH with only Species.full
 irisDT[irisH, on = .(Species), Species.full := Species.full]
 
-
-irisDT[irisH, 
-	on = .(Species),	
+# join irisDT with irisH using specific columns of irishH with the same name
+irisDT[irisH, on = .(Species),	
 	`:=` (Species.full = Species.full, height = height, soil = soil)]
 
-
-irisDT[irisH,	
-	on = .(Species),
+# the same but with `update-by-reference-join` which is for  memory efficiency
+irisDT[irisH, on = .(Species),
 	`:=` (Species.full = i.Species.full, height = i.height,	soil = i.soil)]
-
+#https://stackoverflow.com/questions/34598139/
 
 

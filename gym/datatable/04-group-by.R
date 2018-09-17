@@ -5,7 +5,7 @@ library(data.table)
 #build in iris dataset:
 irisDT <- as.data.table(iris)
 
-#count the number of members in groups
+#count the number of members in groups (.N number of rows)
 irisDT[, .N, by = Species]
 
 #Species with average of Petal.Width
@@ -16,7 +16,7 @@ irisDT[, .(average = mean(Petal.Width)), by = Species]
 irisDT[Sepal.Length < 5.3, .(average = mean(Petal.Width)), by =	Species]
 
 # average of Petal.Width grouped by species and logic variable for Sepal.Lenght<5.3
-irisDT[, .(average = mean(Petal.Width)), by = .(Species, logic =	Sepal.Length <	5.3)]
+irisDT[, .(average = mean(Petal.Width)), by = .(Species, logic = Sepal.Length <	5.3)]
 
 
 

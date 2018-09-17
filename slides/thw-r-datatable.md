@@ -119,6 +119,12 @@ See `README.md` for further information
 ```
 
 
+## Learn more!
+\centerline{\includegraphics[width=0.9\textwidth]{images/datatable/wiki.pdf}}
+
+https://github.com/Rdatatable/data.table/wiki
+
+
 ## References
 
 
