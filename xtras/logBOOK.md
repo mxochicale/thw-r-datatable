@@ -4,20 +4,30 @@ logBOOK
 
 #todo
 
-* [ ] make sure that no errors in execition of the scripts
+
+* [ ] summarise the whole presentation in one slide
+	and another slide for the take away message!
+
+added: Mon 17 Sep 14:34:43 BST 2018
+
+	
+
+
+#sorted
+
+* [x] make sure that no errors in execition of the scripts
 
 added Sun Sep 16 18:56:20 BST 2018
+sorted: Mon 17 Sep 12:30:21 BST 2018
 
-* [ ] polish presentation
+* [x] polish presentation
 	* add outline for code
 	* thanks slides
 	* twitter with the links
 
 added: Sun Sep 16 18:58:05 BST 2018
+sorted Mon 17 Sep 12:30:32 BST 2018
 
-
-
-#sorted
 
 
 * [x] create data.table exercises
